@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+
+:root{
+    --biru : #194fb0;
+    --hijau : #87d37c;
+    --merah : #dd261d;
+    --abu: #e6e8eb;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+
+/* ================ Color ==================== */
+.text-biru{
+    color: var(--biru);
+}
+
+.text-hijau{
+    color: var(--hijau);
+}
+
+.text-merah{
+    color: var(--merah);
+}
+
+.bg-biru{
+    background-color: var(--biru);
+}
+
+.bg-hijau{
+    background-color: var(--hijau);
+}
+
+.bg-merah{
+    background-color: var(--merah);
+}
+
+.bg-abu{
+    background-color: var(--abu);
+}
+
+/* ================ SIZE ==================== */
+.fs-sm{
+    font-size: .9rem;
+}
+
+.fs-xs{
+    font-size: .8rem;
+}
+
+/* ================  ======================== */
+.cr-pointer{
+    cursor: pointer;
+}
+
+.vs-none{
+    visibility: hidden;
+}
